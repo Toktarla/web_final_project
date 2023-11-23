@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="custom-cursor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>TABO SHOP</title>
+    <link rel="icon" href="./img/tabo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/contacts.css">
+
+    
+</head>
+<body>
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="zoomedImg">
+      </div>
+      
+    <div class="banner main-container">
+
+        <header class="mb-3">
+            <div class="container-fluid bg-info">
+                <div class="row align-items-center ">
+                    <div class="col-4 col-xl-1 col-lg-2 col-md-2 col-sm-2">
+                        <h5><a href="index.html" class="text-center text-white fw-bold fs-1 mr-1">TABO</a></h5>
+                    </div>
+        
+                    <div class="col-6 col-xl-6 col-lg-6 col-3 col-md-3 col-sm-3">
+                        <nav class="navbar navbar-expand-lg justify-content-center align-items-center">
+                            <ul class="nav navbar-nav align-items-center">
+                                <li class="nav-item">
+                                    <h5><a class="nav-link mx-2 active text-white fw-bold fs-3" href="index.html">Home</a></h5>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <h5><a class="nav-link mx-2 active text-white fw-bold fs-3" href="shop.html">Shop</a></h5>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <h5><a class="nav-link mx-2 active text-white fw-bold fs-3" href="brands.html">Brands</a></h5>
+                                </li>
+                                <li class="nav-item pr-3">
+                                    <h5><a class="nav-link mx-2 active text-white fw-bold fs-3" href="contacts.html">Contact</a></h5>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+        
+                    <div class="col-12 col-xl-4 col-lg-3 col-sm-6 col-md-6 ">
+                        <div class="row align-items-center justify-content-center icon-row">
+                            <div class="col-2"><a class="text-dark " href="faq.html" target="blank"><i class="fa-solid fa-circle-info fa-2x" aria-hidden="true"></i></a></div>
+                            <div class="col-2"><a class="text-dark " href="cart.html" target="blank"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a></div>
+                            
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+    <div class = "container-fluid" >
+    
+        <div class="row justify-content-end">
+
+
+            <div class="col-12 col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 center-block text-center mb-3">
+                <img class="zoomable-image" src="img/img4.png" alt="TABO" >
+
+            </div>
+
+
+
+            <div class="col-12 col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 text-center">
+
+                <img class="img-fluid mb-5 pb-2" src="img/Group 2 (1) 3tabo.png" alt="">
+
+
+                <p class="p1 mb-3" id="text">We're fashion enthusiasts at Tabu, where style is your unique expression.</p>
+<button id="textPrevBtn" class="btn btn-prev"><i class="fa fa-arrow-left" aria-hidden="true"></i> Prev</button>
+<button id="textNextBtn" class="btn btn-next">Next <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+
+
+<p class="p1 mb-5 mt-5">📞 Contact Us:<br> +87473285689 <br> +87784567888</p> 
+<a href="contact.html"><p class="about-features">Our Location</p></a>
+
+<h3 class="p1 mb-3">Founders</h3>
+<div class = "row">
+    <div class="col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+        <img class="zoomable-image" src="img/tomi1.jpg" width="100px" alt="Ellipse">
+
+        <p class="p1 mt-2">Tomiris Ospanova</p>   
+
+    </div>
+    <div class="col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+        <img class="zoomable-image" src="img/toha.jpg" width="100px" alt="Ellipse">
+
+        <p class="p1 mt-2">Toktar Sultan</p>   
+
+    </div>
+    <div class="col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
+        <img class="zoomable-image" src="img/jiga.jpg" width="100px" alt="Ellipse">
+
+        <p class="p1 mt-2">Zhigitali Zhanbyrbai</p>   
+
+    </div>
+</div>
+            </div>
+
+
+        </div>    
+
+
+
+            
+    </div>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer class="bg-light text-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <p>Feel free to get in touch with us.</p>
+                </div>
+                <div class="col-md-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            <div id="nameError" class="text-danger mt-1 small"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            <div id="emailError" class="text-danger mt-1 small"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                            <div id="messageError" class="text-danger mt-1 small"></div>
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+        emailjs.init("fviQGWEE5QuIkH5eC"); 
+    })(); 
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/text_slider.js"></script>
+    <script src="js/cursor-image.js"></script>
+    <script src="js/zoom.js"></script>
+    <script src="js/auth.js"></script>
+  
+   
+</body>
+</html>
